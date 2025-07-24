@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__heading">Portfolio</h1>
+      <nav class="header__nav">
+        <menu class="header__nav__menu">
+          <li class="header__nav__menu__item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="header__nav__menu__item">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li class="header__nav__menu__item">
+            <a href="#">Contact me</a>
+          </li>
+        </menu>
+      </nav>
+      <section class="handburger-icon"></section>
+      <input type="checkbox" />
+      <nav class="header__mobile__nav">
+        <menu class="header__mobile__nav__menu">
+          <li class="header__mobile__nav__menu__item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="header__mobile__nav__menu__item">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li class="header__mobile__nav__menu__item">
+            <a href="#">Contact me</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+    <main>
+      <form action="">
+        <h2>Contact Form</h2>
+        <section>
+          <label for="name" id="name">Name</label>
+          <input type="text" pattern="[a-zA-z]*" placeholder="Enter Name" />
+        </section>
+        <section>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="subject"
+            pattern="^[a-zA-Z]+[a-zA-Z0-9.+-]{10,15}+@[a-z]{,5}+\.[a-z]{2,3}"
+            placeholder="Enter Email"
+          />
+        </section>
+        <section>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Enter Email Sunject" />
+        </section>
+        <section>
+          <label for="Message">Meassage</label>
+          <textarea
+            name="Meassage"
+            id="Meassage"
+            cols="30"
+            rows="10"
+            placeholder="Enter The Message here"
+          ></textarea>
+        </section>
+        <button type="submit">submit</button>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <h1>Copy rights &copy; by R hariharan</h1>
+      <article class="footer__article">
+        <section class="about">
+          <h3>About</h3>
+          <ul>
+            <li><a href="">Author</a></li>
+            <li><a href="">Technologies</a></li>
+            <li><a href="">Tools</a></li>
+            <li><a href="">Experience</a></li>
+          </ul>
+        </section>
+        <section class="Contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instragram</a></li>
+            <li><a href="">whatsapp</a></li>
+          </ul>
+        </section>
+        <section class="References">
+          <h3>References</h3>
+          <ul>
+            <li><a href="">indian Projects</a></li>
+            <li><a href="">USA Projects</a></li>
+            <li><a href="">Small Projects</a></li>
+            <li><a href="">Enterprice Projects</a></li>
+          </ul>
+        </section>
+      </article>
+    </footer>
+  </body>
+</html>
